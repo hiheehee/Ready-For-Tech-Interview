@@ -20,7 +20,7 @@
 # 📚️ Data Structure
 * Array vs LinkedList
 * ArrayList vs LinkedList
-* Stack과 Queue
+* [Stack & Queue](https://github.com/hiheehee/Ready-For-Tech-Interview/edit/main/Data%20Structure/Stack%20&%20Queue.md)
 * Tree
 * Heap
 * B Tree & B+ Tree
