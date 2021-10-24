@@ -12,7 +12,7 @@
 * 힙 정렬(Heap Sort)
 * 투포인터 알고리즘
 * 순열(Permutation) & 조합(Combination)
-* BFS & DFS
+* [BFS & DFS](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Algorithm/BFS%20%26%20DFS.md)
 * 이분 탐색(Binary Search)
 * 최대공약수 & 최소공배수
 * lru cache
