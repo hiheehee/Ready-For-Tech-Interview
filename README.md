@@ -14,7 +14,7 @@
 * 순열(Permutation) & 조합(Combination)
 * [BFS & DFS](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Algorithm/BFS%20%26%20DFS.md)
 * 이분 탐색(Binary Search)
-* 최대공약수 & 최소공배수
+* [최대공약수 & 최소공배수](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Algorithm/GCD%20%26%20LCM.md)
 * lru cache
 ------------------------------------------------
 # Data Structure
