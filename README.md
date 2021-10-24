@@ -1,9 +1,9 @@
 # Ready-For-Tech-Interview  
-* Project Description : 기술 면접을 위한 공부 정리  
+* Project Description : 기술 면접을 위한 공부 정리 📚️
 * Author : 황규희  
 * Date : 2021.10.24 ~  
 ------------------------------------------------
-# Algorithm 
+# 📚️ Algorithm 
 * 선택 정렬(Selection Sort)
 * 거품 정렬(Bubble Sort)
 * 병합 정렬(Merge Sort)
@@ -17,7 +17,7 @@
 * [최대공약수 & 최소공배수](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Algorithm/GCD%20%26%20LCM.md)
 * lru cache
 ------------------------------------------------
-# Data Structure
+# 📚️ Data Structure
 * Array vs LinkedList
 * ArrayList vs LinkedList
 * Stack과 Queue
