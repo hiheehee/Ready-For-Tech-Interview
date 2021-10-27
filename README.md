@@ -11,9 +11,9 @@
 * 퀵 정렬(Quick Sort)
 * 힙 정렬(Heap Sort)
 * 투포인터 알고리즘
-* 순열(Permutation) & 조합(Combination)
+* [순열(Permutation) & 조합(Combination)](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Algorithm/Permutation%20%26%20Combination.md)
 * [BFS & DFS](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Algorithm/BFS%20%26%20DFS.md)
-* 이분 탐색(Binary Search)
+* [이분 탐색(Binary Search)](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Algorithm/Binary%20Search.md)
 * [최대공약수 & 최소공배수](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Algorithm/GCD%20%26%20LCM.md)
 * lru cache
 ------------------------------------------------
