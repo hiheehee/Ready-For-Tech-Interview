@@ -4,12 +4,12 @@
 * Date : 2021.10.24 ~  
 ------------------------------------------------
 # 📚️ Algorithm 
-* 선택 정렬(Selection Sort)
-* 거품 정렬(Bubble Sort)
-* 병합 정렬(Merge Sort)
-* 삽입 정렬(Insertion Sort)
-* 퀵 정렬(Quick Sort)
-* 힙 정렬(Heap Sort)
+* [선택 정렬(Selection Sort)](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Algorithm/Sort/Selection%20sort.md)
+* [거품 정렬(Bubble Sort)](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Algorithm/Sort/Bubble%20Sort.md)
+* [삽입 정렬(Insertion Sort)](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Algorithm/Sort/Insertion%20Sort.md)
+* [병합 정렬(Merge Sort)](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Algorithm/Sort/Merge%20Sort.md)
+* [퀵 정렬(Quick Sort)](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Algorithm/Sort/Quick%20Sort.md)
+* [힙 정렬(Heap Sort)](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Algorithm/Sort/Heap%20Sort.md)
 * 투포인터 알고리즘
 * [순열(Permutation) & 조합(Combination)](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Algorithm/Permutation%20%26%20Combination.md)
 * [BFS & DFS](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Algorithm/BFS%20%26%20DFS.md)
