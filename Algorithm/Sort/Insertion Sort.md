@@ -5,6 +5,7 @@
 * Selection Sort과 유사  
 * 흔히 손 안의 카드 정렬이라 불림  
 * 제자리 정렬(in-place sorting)  
+* 안정 정렬(stable Sort)
 * 시간 복잡도 : 최선 O(N), 평균, 최악 : O(N^2)  
 * 공간 복잡도 : O(N)  
 * 방법  
