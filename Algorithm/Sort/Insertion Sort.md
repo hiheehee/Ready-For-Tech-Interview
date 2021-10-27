@@ -13,16 +13,16 @@
   3. 앞의 위치의 값이 현재 위치의 값보다 작거나 더이상 앞으로 가지 못하는 경우라면 해당 위치에 현재 값 삽입  
 
 ```java
-static int[] insertionSort(int[] arr) {
-  for(int i = 1 ; i < arr.length ; i++){
-    int temp = arr[i];
-    int prev = i - 1;
-    while( (prev >= 0) && (arr[prev] > temp) ) {
-      arr[prev + 1] = arr[prev];
-      prev--;
-    }
-    arr[prev + 1] = temp;
-  }
-  return arrr;
+static int[] insertionSort(int arr[]) {
+    for(int i = 1 ; i < arr.length ; i++){
+        int temp = arr[i];
+        int prev = i - 1;
+        while((prev >= 0) && (arr[prev] > temp)) {
+          arr[prev+1] = arr[prev];
+          prev--;
+        }
+        arr[prev + 1] = temp;
+      }
+      return arrr;
 }
 ```
