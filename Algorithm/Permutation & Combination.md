@@ -22,9 +22,8 @@ public class Main {
 		StringBuffer sb = new StringBuffer();
 		boolean visited[] = new boolean[n+1];
 		
-    nPr(0, visited, sb);
-		
-    bw.close();
+    		nPr(0, visited, sb);
+    		bw.close();
 	}
 	
 	static void nPr(int depth, boolean visited[], StringBuffer sb) throws IOException {
@@ -84,7 +83,8 @@ public class Main {
 		n = Integer.parseInt(st.nextToken());
 		r = Integer.parseInt(st.nextToken());
 		StringBuffer sb = new StringBuffer();
-		nPr(0, sb);
+		
+		nPir(0, sb);
 		bw.close();
 	}
 	
@@ -125,6 +125,7 @@ public class Main {
 4 4
 */
 ```
+
 # 조합 : Combination
 * **서로 다른 n개**의 수 중 **중복을 허용하지 않고** **r개**를 뽑은 수
 ```java
@@ -146,6 +147,7 @@ public class Main {
 		r = Integer.parseInt(st.nextToken());
 		StringBuffer sb = new StringBuffer();
 		boolean visited[] = new boolean[n+1];
+		
 		nCr(0, 1, visited, sb);
 		bw.close();
 	}
@@ -222,7 +224,7 @@ public class Main {
 
 
 /*
-임력 : 
+입력 : 
 4 2
 
 출력 : 
