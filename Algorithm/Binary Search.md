@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BOJ15656 {
+public class Main {
 	static int nums[];
 	static int n, target;
 	public static void main(String[] args) throws IOException {
