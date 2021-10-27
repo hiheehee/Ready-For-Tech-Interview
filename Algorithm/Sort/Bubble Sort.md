@@ -4,6 +4,7 @@
 * 서로 인접한 원소의 대소관계를 비교하여 정렬하는 알고리즘
 * 선택 정렬 (Selection Sort)과 유사
 * 제자리 정렬 : in-place sorting <= 다른 메모리 공간 필요하지 X
+* 안정 정렬(stable Sort)
 * 시간 복잡도 O(N^2) <= 최악, 최선, 평균 모두
 * 공간 복잡도 O(N)
 * 방법
@@ -12,8 +13,7 @@
 
 ```java
 static int[] bubbleSort(int arr[]) {
-	int temp = 0;
-	    
+	int temp = 0;   
 	for(int i = 1; i < arr.length; i++) { 
 		for(int j = 0; j < arr.length-i; j++) {
 			if(arr[j] > arr[j+1]) {             
