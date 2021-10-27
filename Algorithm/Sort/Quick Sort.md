@@ -2,6 +2,7 @@
 <img width="80%" src="http://www-scf.usc.edu/~zhan468/public/Notes/resources/C411339B79F92499DCB7B5F304C826F4.gif"/>  
 
 * 분할 정복(Divide and Conquer)을 통해 정렬하는 알고리즘
+* pivot을 기준으로 정렬 -> 쪼갬 
 * 불안정 정렬(Unstable Sort)
 * java의 Arrays.sort() <= 내부적으로 Dual Pivot Quick Sort로 구현
 * 시간 복잡도 : 최악 O(n^2), 평균 & 최선 : Θ(nlogn)
