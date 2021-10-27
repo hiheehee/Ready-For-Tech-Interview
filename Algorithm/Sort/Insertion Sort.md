@@ -1,5 +1,5 @@
-# Insertion Sort
-<img width="80%" src="https://miro.medium.com/max/724/1*lOADpUyGCRe2VC7Rl7HV9g.gif">    
+# Insertion Sort  
+<img width="80%" src="https://miro.medium.com/max/724/1*lOADpUyGCRe2VC7Rl7HV9g.gif/">    
 * 2번째 원소에서 시작하여 왼쪽 원소들과 비교해 삽입할 위치를 지정하고 삽입할 위치 다음의 원소들을 모두 오른쪽으로 옮긴뒤 자료를 삽입하여 정렬하는 알고리즘  
 * Selection Sort과 유사  
 * 흔히 손 안의 카드를 정렬이라 불림  
