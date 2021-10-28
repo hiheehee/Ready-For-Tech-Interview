@@ -1,5 +1,5 @@
 # Stack
-* 후입선출(Last In First Out : LIFO) 자료구조
+* **후입선출(Last In First Out : LIFO)** 자료구조
 * like 프링글스 <= 나중에 들어간 과자부터 꺼내 먹는 상황
 * 시간 복잡도 : O(n)
 * 공간 복잡도 : O(n)
@@ -20,10 +20,9 @@
 // LinkedList로 Stack 구현
 
 ```
-
 =====================================================================
 # Queue
-* 선입선출 (First In First Out : FIFO) 자료구조
+* **선입선출 (First In First Out : FIFO)** 자료구조
 * like 공항 보안 검사대 <= 먼저 줄선 사람이 먼저 검사 받는 상황
 * 시간 복잡도 : O(n)
 * 공간 복잡도 : O(n)
