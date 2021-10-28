@@ -12,3 +12,45 @@
   1. 
   2. 
   3. 
+```java
+// 분할
+public ArrayList<Integer> mergeSplitFunc(ArrayList<Integer> al) {
+		if(al.size() <= 1) return al;
+    
+		int midIdx = al.size() / 2;
+		ArrayList<Integer> left = mergeSplitFunc(new ArrayList<Integer>(al.subList(0, midIdx)));
+		ArrayList<Integer> right = mergeSplitFunc(new ArrayList<Integer>(al.subList(midIdx, al.size())));
+		return mergeFunc(left, right);
+}
+	
+	private ArrayList<Integer> mergeFunc(ArrayList<Integer> leftList, ArrayList<Integer> rightList) {
+		ArrayList<Integer> mergedList = new ArrayList<Integer>();
+		int leftPoint = 0;
+		int rightPoint = 0;
+		
+		// case 1 : left, right List 둘다 있을때
+		while(leftPoint < leftList.size() && rightPoint < rightList.size()) {
+			if(leftList.get(leftPoint) < rightList.get(rightPoint)) {
+				mergedList.add(leftList.get(leftPoint));
+				leftPoint++;
+			}else {
+				mergedList.add(rightList.get(rightPoint));
+				rightPoint++;
+			}
+		}
+		
+		// case 2 : 왼쪽 데이터만 남은 경우
+		while(leftPoint < leftList.size()) { 
+			mergedList.add(leftList.get(leftPoint));
+			leftPoint++;
+		}
+		
+		// case 3 : 오른쪽 데이터만 남은 경우
+		while(rightPoint < rightList.size()) {
+			mergedList.add(rightList.get(rightPoint));
+			rightPoint++;
+		}
+    
+		return mergedList;
+}
+```
