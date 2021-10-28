@@ -13,5 +13,26 @@
   3. 정렬이 될때까지 1-2번 반복 수행 => Conquer
 
 ```java
-
+static ArrayList<Integer> quickSort(ArrayList<Integer> al) {
+		if(al.size() <= 1) return dataList;
+    
+		int pivot = al.get(0);
+		ArrayList<Integer> left = new ArrayList<Integer>();
+		ArrayList<Integer> right = new ArrayList<Integer>();
+		
+		for(int i = 1; i < al.size(); i++) {
+			if(al.get(i) < pivot) {
+				left.add(al.get(i));
+			}else {
+				righ.add(al.get(i));
+			}
+		}
+		
+		ArrayList<Integer> mergedList = new ArrayList<Integer>();
+		mergedList.addAll(sort(left));
+		mergedList.addAll(Arrays.asList(pivot));
+		mergedList.addAll(sort(right));
+		
+		return mergedList;
+}
 ```
