@@ -14,7 +14,7 @@
 
 ```java
 static ArrayList<Integer> quickSort(ArrayList<Integer> al) {
-		if(al.size() <= 1) return dataList;
+		if(al.size() <= 1) return al;
     
 		int pivot = al.get(0);
 		ArrayList<Integer> left = new ArrayList<Integer>();
@@ -29,9 +29,9 @@ static ArrayList<Integer> quickSort(ArrayList<Integer> al) {
 		}
 		
 		ArrayList<Integer> mergedList = new ArrayList<Integer>();
-		mergedList.addAll(sort(left));
+		mergedList.addAll(quickSort(left));
 		mergedList.addAll(Arrays.asList(pivot));
-		mergedList.addAll(sort(right));
+		mergedList.addAll(quickSort(right));
 		
 		return mergedList;
 }
