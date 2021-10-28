@@ -30,7 +30,6 @@
 ![이미지 2](https://user-images.githubusercontent.com/49300728/139175601-8cc66705-bbf5-47f5-bba7-968b633f226b.png)
 ```java
 // 기존 Queue 메소드 사용
-
 ```
 ```java
 // 배열로 Queue 구현
