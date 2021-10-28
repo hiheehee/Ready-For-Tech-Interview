@@ -9,21 +9,23 @@
 * 공간 복잡도 : 
 * 합병 정렬이라고도 부르며, 분할 정복 방법을 통해 구현한다.
 * 방법
-  1. 
-  2. 
-  3. 
+  1. 리스트의 길이가 1보다 큰 경우 정렬되지 않은 리스트를 절반으로 나눠 두개의 리스트로 분할
+  2. 각 리스트를 재귀적으로 합병 정렬을 이용해 정렬
+  3. 두 리스트를 다시 하나의 정렬된 리스트로 합병
+  4. 리스트의 길이가 1보다 작으면 이미 정렬 되었다고 생각
+
 ```java
 // 분할
-public ArrayList<Integer> mergeSplitFunc(ArrayList<Integer> al) {
+public ArrayList<Integer> mergeSplit(ArrayList<Integer> al) {
 		if(al.size() <= 1) return al;
     
 		int midIdx = al.size() / 2;
-		ArrayList<Integer> left = mergeSplitFunc(new ArrayList<Integer>(al.subList(0, midIdx)));
-		ArrayList<Integer> right = mergeSplitFunc(new ArrayList<Integer>(al.subList(midIdx, al.size())));
-		return mergeFunc(left, right);
+		ArrayList<Integer> left = mergeSplit(new ArrayList<Integer>(al.subList(0, midIdx)));
+		ArrayList<Integer> right = mergeSplit(new ArrayList<Integer>(al.subList(midIdx, al.size())));
+		return merge(left, right);
 }
 	
-	private ArrayList<Integer> mergeFunc(ArrayList<Integer> leftList, ArrayList<Integer> rightList) {
+public ArrayList<Integer> merge(ArrayList<Integer> leftList, ArrayList<Integer> rightList) {
 		ArrayList<Integer> mergedList = new ArrayList<Integer>();
 		int leftPoint = 0;
 		int rightPoint = 0;
