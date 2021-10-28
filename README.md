@@ -19,7 +19,7 @@
 ------------------------------------------------
 # 📚️ Data Structure
 * [Array vs ArrayList vs LinkedList](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Data%20Structure/Array%20vs%20Dynamic%20Array%20vs%20LinkedList.md)
-* [Stack & Queue](https://github.com/hiheehee/Ready-For-Tech-Interview/edit/main/Data%20Structure/Stack%20&%20Queue.md)
+* [Stack & Queue](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Data%20Structure/Stack%20%26%20Queue.md)
 * [Heap](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Data%20Structure/Heap.md)
 * [Tree](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Data%20Structure/Tree.md)
 * [B Tree & B+ Tree](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Data%20Structure/B%20Tree%20%26%20B%2B%20Tree.md)
