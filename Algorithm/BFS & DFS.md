@@ -90,8 +90,7 @@ public class Main {
 */
 
 ```
-=====================================================================
-<h1><center>DFS : Depth First Search</center></h1>
+# DFS : Depth First Search
 <img width="80%" src="https://user-images.githubusercontent.com/49300728/138594239-6241014e-1c89-40d0-a3d6-d9c0689f27a8.gif"/>
   
 * 시작 노드를 시작으로 가장 깊은 노드까지 탐색후 다시 간선을 따라 나와 탐색하는 방법  
