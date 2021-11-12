@@ -52,5 +52,5 @@
 * [SQL vs NoSQL]( https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Database/SQL%20vs%20NoSQL.md)
 * [이상]( https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Database/Anomaly.md)
 * [인덱스]( https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Database/INDEX.md)
-* [트랜잭션] (https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Database/Transaction.md)
+* [트랜잭션]( https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Database/Transaction.md)
 
