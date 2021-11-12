@@ -3,6 +3,7 @@
 
 # INNER JOIN
 * 교집합  
+
 ![INNER](https://user-images.githubusercontent.com/49300728/141489130-a967d534-3516-4f3b-8831-94a492809d67.png)
 ```sql
 SELECT *
@@ -35,6 +36,7 @@ WHERE A.KEY IS NULL;
 ```
 # OUTER JOIN 
 * 합집합  
+
 ![O1](https://user-images.githubusercontent.com/49300728/141489134-c7424df7-7ddf-4d71-a571-fe7c0a58dc27.png)
 ```sql
 SELECT *
