@@ -27,3 +27,30 @@
 * [Binary Search Tree](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Data%20Structure/Binary%20Search%20Tree.md)
 * [Trie](https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Data%20Structure/Trie.md)
 * Tree Map
+------------------------------------------------
+# 📚️ Operating System
+* 컴퓨터 시스템의 동작 원리
+* Process vs Thread
+* 동기화 문제
+* Context Switching
+* 인터럽트(Interrupt)
+* 시스템 콜(System Call)
+* 교착 상태(Dead lock)
+* CPU 스케줄링
+* 스케줄러의 종류
+* 동기 vs 비동기
+* 페이징 & 세그멘테이션
+* 페이지 교체 알고리즘
+* 단편화
+* IPC(Inter Process Communication)
+* 메모리
+* 캐시의 지역성
+------------------------------------------------
+# 📚️ [DataBase](https://github.com/hiheehee/Ready-For-Tech-Interview/tree/main/Database)
+* [Key]( https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Database/Key.md)
+* [SQL - Join]( https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Database/SQL%20Join.md)
+* [SQL vs NoSQL]( https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Database/SQL%20vs%20NoSQL.md)
+* [이상]( https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Database/Anomaly.md)
+* [인덱스]( https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Database/INDEX.md)
+* [트랜잭션] (https://github.com/hiheehee/Ready-For-Tech-Interview/blob/main/Database/Transaction.md)
+
