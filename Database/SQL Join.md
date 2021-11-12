@@ -2,7 +2,7 @@
 * 두개 이상의 테이블이나 데이터베이스를 연결해 데이터를 검색하는 방법
 
 # INNER JOIN
-* 교집합
+* 교집합  
 ![INNER](https://user-images.githubusercontent.com/49300728/141489130-a967d534-3516-4f3b-8831-94a492809d67.png)
 ```sql
 SELECT *
@@ -33,8 +33,8 @@ SELECT *
 FROM TableA A LEFT OUTER JOIN TableB B ON A.KEY = B.KEY
 WHERE A.KEY IS NULL;
 ```
-# OUTER JOIN
-* 합집합
+# OUTER JOIN 
+* 합집합  
 ![O1](https://user-images.githubusercontent.com/49300728/141489134-c7424df7-7ddf-4d71-a571-fe7c0a58dc27.png)
 ```sql
 SELECT *
